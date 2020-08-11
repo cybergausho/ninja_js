@@ -88,8 +88,8 @@ console.clear()
 var valorNulo = null
 console.log(valorNulo) //imprime null
 console.log(typeof valorNulo) //object - js considera al null como un objeto
-console.log(valorInexsitente) //el valor no existe
-console.log(typeof valorInexsitente) //undefined rompe la ejecucion
+console.log(valorInexsitente) //el valor no existe ROMPE LA EJECUCIÓN
+console.log(typeof valorInexsitente) //undefined 
 
 //control de var undefined
 if (typeof valorInexsitente !== 'undefined') {
@@ -114,7 +114,7 @@ console.log(cadena1 + cadena2) //suma a String <- 1520
 console.log(cadena1 - cadena2) //resta xq Parsea a int
 //parsear a la fuerza - segun ecma6 / ecma5 ES parseInt
 console.log(cadena1 + Number(cadena2)) //suma y parsea a cadena2
-console.log(Number(cadena3)) //NaN <- not a number
+console.log(Number(cadena4)) //NaN <- not a number
 
 var arr1 = [12, "hola", 64.51, true]
 //arr1[2] <- se accede mediante indice
